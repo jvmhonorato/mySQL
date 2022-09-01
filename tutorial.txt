@@ -1,0 +1,7 @@
+1: install xampp, heid sql
+
+2: npm install mysql2
+
+3: criar database no heidSQL
+
+4: criar test-conn.js e rodar servidor

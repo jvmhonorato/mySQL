@@ -5,3 +5,5 @@
 3: criar database no heidSQL
 
 4: criar test-conn.js e rodar servidor
+
+5:criar test-create-tables.js

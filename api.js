@@ -11,7 +11,7 @@ const test = async()=> {
     // const cats = await categories.findAll()
     // console.log(cats)
     //await products.addImage(5,['img test', 'url'])
-    const prods = await products.findAll()
+    const prods = await products.findAllByCategory(1)
     console.log(prods)
 }
 test()

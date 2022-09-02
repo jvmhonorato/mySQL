@@ -7,3 +7,11 @@
 4: criar test-conn.js e rodar servidor
 
 5:criar test-create-tables.js
+
+6: criar test-create-category.js
+
+7: criar test-create-product.js
+
+8: criar test-list-categories.js
+
+9: criar test-list-product-from-category.js

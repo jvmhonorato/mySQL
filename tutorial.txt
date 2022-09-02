@@ -20,4 +20,6 @@
 
 11: criar pasta poc e inserir todos os teste dentro dela
 
-12; CRIAR API.js
+12; CRIAR API.js, db.js, products.js, cetegories.js, api.js, 
+
+13:OBS: usar em db.js pool connection e declarar o limite de conexão de acordo com o servidor testar usando no heidi o: SHOW STATUS LIKE 'Conn%';

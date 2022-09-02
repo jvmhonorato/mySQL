@@ -15,3 +15,9 @@
 8: criar test-list-categories.js
 
 9: criar test-list-product-from-category.js
+
+10:: criar test-list-product.js
+
+11: criar pasta poc e inserir todos os teste dentro dela
+
+12; CRIAR API.js

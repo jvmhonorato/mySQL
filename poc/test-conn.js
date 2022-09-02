@@ -1,9 +1,5 @@
 const mysql = require('mysql2/promise')
 
-
-
-
-
 //Query promisificada
 const run = async() => {
         try{

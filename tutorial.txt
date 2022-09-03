@@ -22,8 +22,10 @@
 
 12; CRIAR API.js, db.js, products.js, cetegories.js, api.js, 
 
-13:OBS: usar em db.js pool connection e declarar o limite de conexão de acordo com o servidor testar usando no heidi o: SHOW STATUS LIKE 'Conn%';
+13: OBS: usar em db.js pool connection e declarar o limite de conexão de acordo com o servidor testar usando no heidi o: SHOW STATUS LIKE 'Conn%';
 
 14: TRANSACTIONS usar commit se der certo e rollback caso não der certo  uma forma de manter dados seguros caso de algum problema na atualização
 
 15: criar migration.js pra poder deixar os creates  drop armazenado no banco de dados
+
+16: criar pasta migrations com arquivos  com a query de  criação e remoção de tabelas pra ser importados posteriomene pra o arquivo migration.js dessa foma reduzimos o controle de criar e deletar tabela a uma função simples em migration.js alterando o up e o down

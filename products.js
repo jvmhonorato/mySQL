@@ -44,7 +44,7 @@ const init = connection =>{
        return findImages(results)
      }
 
-     //retunr paginated query
+     //return paginated query
      const findAllPaginated = async({pageSize = 1, currentPage = 0}={}) => {
         const conn = await connection
        //primeiro parâmetro pageSize(quantos pulam) o segundo currentPage(qunatos serão mostrados) obs: ${currentPage*pageSIze},${pageSize}

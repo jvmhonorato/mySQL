@@ -25,3 +25,5 @@
 13:OBS: usar em db.js pool connection e declarar o limite de conexão de acordo com o servidor testar usando no heidi o: SHOW STATUS LIKE 'Conn%';
 
 14: TRANSACTIONS usar commit se der certo e rollback caso não der certo  uma forma de manter dados seguros caso de algum problema na atualização
+
+15: criar migration.js pra poder deixar os creates  drop armazenado no banco de dados

@@ -30,3 +30,5 @@ START TRANSACTION {} COMMIT ou ROLLBACK
 15: criar migration.js  pra controlar qual versão do banco de dados será chamada 
 
 16: criar pasta migrations com arquivos  com a query de  criação e remoção de tabelas pra ser importados posteriomene pra o arquivo migration.js dessa foma reduzimos o controle de criar e deletar tabela a uma função simples em migration.js alterando o up e o down
+
+17: passar qual versão o banco ira migrar de forma dinâmica:  node ./migration.js --target-version 1
